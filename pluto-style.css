@@ -1,60 +1,156 @@
-<link href="https://fonts.googleapis.com/css?family=Rakkas|Yatra+One&display=swap" rel="stylesheet">
 
 body {
 	background-color: #F5F1EF;
+	color: #262626;
+	overflow: hidden;
+	height: 100%;
 }
 
+@font-face {
+	font-family: 'clearfaceITC';
+	src: url(ClearfaceITCBQ-Regular.woff);
+	font-style: normal;
+	font-weight: 100;
+}
+@font-face {
+	font-family: 'roman';
+	src: url(ClearlyRomanLight.woff);
+	font-style: normal;
+	font-weight: 100;
+}
+@font-face {
+	font-family: 'nitti';
+	src: url(Nitti-Normal.woff);
+	font-style: normal;
+	font-weight: 100;
+}
+@font-face {
+	font-family: 'pitch';
+	src: url(Pitch-Regular.otf);
+	font-style: normal;
+	font-weight: 100;
+}
+
+@font-face {
+	font-family: 'minion';
+	src: url(minion-Regular.otf) format('otf');
+	font-weight: 100;
+	font-style: normal;
+}
+@font-face {
+    font-family: 'nantesregular';
+    src: url('nantes-regular-webfont.woff') format('woff'),
+         url('nantes-regular-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.startlink {
+	max-width: 800px;
+	width: 750px;
+	margin: 0, auto;
+}
+
+.imgbg {
+	float: right;
+	margin-top: 205px;
+	margin-left: 1020px;
+	display: inline-block;
+	width: 510px;
+	height: 510px;
+	position: absolute;
+	overflow: hidden;
+}
+#mail {
+	border-bottom: 1px solid #000;
+}
 h2#contact {
-	margin-top: 120px;
+	margin-top: 100px;
+	font-family: nitti;
 }
 
-#logo {
-	border-bottom: 1px solid black;
+.logo {
+	margin-top: -20px;
+	margin-left: 22px;
+}
+
+.logoborder {
+	border-bottom: 1px solid #262626;
 	margin-bottom: 20px;
 	padding-bottom: 0px;
-	text-orientation: center;
+	margin-left: -2px;
+	margin-right: -2px;
 }
 
-#rubrikinfo {
-	font-family: "Courier New";
-	font-size: 14px;
+#philosophy {
+	font-family: "nitti";
+	font-size: 16px;
+	text-align: right;
 	font-weight: bold;
+	text-decoration: none;
+	display: inline-block;
+	width: 270px;
+	height: 25px;
+	float: right;
+	margin-top: 20px;
+	margin-right: 50px;
+}
+
+.introlink {
+	width: 800px;
+	font-family: nantesregular;
+	line-height: 45px;
+	max-width: 800px;
+	padding-left: 60px;
+	font-weight: 100;
+	font-size: 45px;
+	line-height: 1.2;
+	margin-bottom: 40px;
+}
+#rubrikinfo {
+	font-family: "nitti";
+	font-size: 16px;
+	font-weight: bold;
+	margin-top: -0px;
 
 }
 
 #rubrikinfo2 {
-	font-family: "Courier New";
-	font-size: 14px;
+	font-family: "nitti";
+	font-size: 16px;
 	font-weight: bold;
+	margin-top: -10px;
 }
 
 #underrubrik {
-	font-family: "Courier New";
-	font-size: 50;
+	font-family: "clearfaceITC";
+	font-size: 60px;
 	border-bottom: 1px solid black;
 	margin-bottom: 20px;
-	margin-top: 30px;
+	margin-top: -0px;
+	margin-right: 200px;
 	padding-bottom: 30px;
 }
 
 #pinfo {
-	font-family: "Courier New";
-	font-size: 16px;
+	font-family: "roman";
+	font-size: 24px;
 	font-weight: thin;
 	margin-top: -10px;
 	margin-right: 200px;
-	margin-left: 150px;
+	margin-left: 230px;
 }
 
 #rubrikinfo3 {
 	border-top: 1px solid black;
 	border-left-width: 70px;
 	border-right-width: 200px;
-	margin-top: 30px;
+	margin-top: 20px;
 	margin-bottom: 20px;
-	padding-top: 30px;
-	font-family: "Courier New";
-	font-size: 14px;
+	padding-top: 10px;
+	margin-right: 200px;
+	font-family: "nitti";
+	font-size: 16px;
 	font-weight: bold;
 }
 
@@ -62,37 +158,28 @@ h1,
 p,
 h2 {
 	text-align: left;
-	padding-left: 70px;
+	margin-left: 70px;
 }
+
 h2 {
-	font-family: "Courier New";
+	font-family: "nitti";
 	font-size: 16px;
 	font-weight: thin;
+	line-height: 10px;
 }
 
 p{
 	font-family: Garamond;
 	font-size: 36px;
 	margin-top: 0px;
-	
-
 }
 
 h1 {
-	font-family: "Rakkas", cursive;
+	font-family: clearfaceITC;
+	font-weight: 100;
 	font-size: 75px;
 	line-height: 1.2;
 	margin-bottom: 40px;
-}
-
-a#philosophy {
-	font-family: "Courier New";
-	font-size: 16px;
-	text-align: right;
-	padding-left: 1200px;
-
-	font-weight: bold;
-	text-decoration: none;
 }
 
 a:link {
@@ -105,9 +192,9 @@ a:visited {
 }
 
 a:hover {
-	color: white;
+	color: #F9A78B;
 }
 
 a:active {
-	color: white;
+	color: darkgrey;
 }
